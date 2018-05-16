@@ -1,0 +1,32 @@
+.c-header {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: #d0eae9;
+  font-size: 14px;
+  background-image: linear-gradient(to right,#1278f6,#00b4aa);
+  .logo {
+    display: table-cell;
+    vertical-align: middle;
+    img {
+      vertical-align: middle;
+      padding: 10px 0px 10px 10px;
+    }
+  }
+  .right-nav {
+    text-align: right;
+    position: relative;
+    .ivu-dropdown {
+      padding-left: 20px;
+      padding-right: 20px;
+      height: 60px;
+      line-height: 60px;
+      font-size: 14px;
+      color: #eff4fe;
+    }
+    a {
+      color: #eff4fe;
+    }
+  }
+}
